@@ -4,7 +4,7 @@ Machine learning project that predicts the winner of a CS:GO round (CT or T) fro
 
 ## Overview
 - **Task:** binary classification (CT = 1, T = 0)
-- **Dataset:** [CS:GO Round Winner Classification (Kaggle)]((https://www.kaggle.com/datasets/christianlillelund/csgo-round-winner-classification)), about 117,000 snapshots from roughly 23,500 rounds after cleaning
+- **Dataset:** [CS:GO Round Winner Classification (Kaggle)](https://www.kaggle.com/datasets/christianlillelund/csgo-round-winner-classification), about 117,000 snapshots from roughly 23,500 rounds after cleaning
 - **Best model:** tuned LightGBM using the top 15 features
 - **Leakage prevention:** round IDs reconstructed from `time_left`, with GroupShuffleSplit and GroupKFold
 
